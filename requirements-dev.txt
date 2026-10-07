@@ -1,0 +1,3 @@
+# Optional tools for regenerating fonts and analysing captured audio.
+Pillow
+numpy

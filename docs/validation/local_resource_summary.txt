@@ -1,0 +1,37 @@
+Offline rebuild of unchanged v2.1.2 RTL. No device programmed.
+
+3. Resource Usage Summary
+
+  --------------------------------------------------------------------------------
+  Resources                   | Usage                               | Utilization
+  --------------------------------------------------------------------------------
+  Logic                       | 12857/20736                         |  62%
+    --LUT,ALU,ROM16           | 12581(9617 LUT, 2964 ALU, 0 ROM16)  | -
+    --SSRAM(RAM16)            | 46                                  | -
+  Register                    | 4308/15750                          |  28%
+    --Logic Register as Latch | 0/15552                             |  0%
+    --Logic Register as FF    | 4300/15552                          |  28%
+    --I/O Register as Latch   | 0/198                               |  0%
+    --I/O Register as FF      | 8/198                               |  5%
+  CLS                         | 7429/10368                          |  72%
+  I/O Port                    | 26/66                               |  40%
+  I/O Buf                     | 22                                  | -
+    --Input Buf               | 5                                   | -
+    --Output Buf              | 15                                  | -
+    --Inout Buf               | 2                                   | -
+  IOLOGIC                     | 8/121                               | 7%
+    --OSER10                  | 4
+  BSRAM                       | 41/46                               | 90%
+    --SP                      | 11
+    --SDPB                    | 7
+    --pROM                    | 23
+  DSP                         | 6.5/24                              | 28%
+    --PADD18                  | 1
+    --MULT9X9                 | 2
+    --MULT18X18               | 8
+    --MULTALU36X18            | 1
+    --MULTADDALU18X18         | 1
+  ================================================================================
+
+
+

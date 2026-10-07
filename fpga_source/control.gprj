@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+  <FileList>
+    <File path="rtl/uart_tx.v" type="file.verilog" enable="1"/>
+    <File path="rtl/uart_rx.v" type="file.verilog" enable="1"/>
+    <File path="rtl/i2s_tx.v" type="file.verilog" enable="1"/>
+    <File path="rtl/synth_core.v" type="file.verilog" enable="1"/>
+    <File path="rtl/metronome.v" type="file.verilog" enable="1"/>
+    <File path="rtl/ima_encoder.v" type="file.verilog" enable="1"/>
+    <File path="rtl/adpcm6_encoder.v" type="file.verilog" enable="1"/>
+    <File path="rtl/audio_uart_stream.v" type="file.verilog" enable="1"/>
+    <File path="rtl/audio_decimate.v" type="file.verilog" enable="1"/>
+    <File path="rtl/room_reverb.v" type="file.verilog" enable="1"/>
+    <File path="rtl/i2c_reg_xfer.v" type="file.verilog" enable="1"/>
+    <File path="rtl/mpu6050_reader.v" type="file.verilog" enable="1"/>
+    <File path="rtl/encoder_control.v" type="file.verilog" enable="1"/>
+    <File path="rtl/tilt_expression.v" type="file.verilog" enable="1"/>
+    <File path="rtl/speaker_conditioner.v" type="file.verilog" enable="1"/>
+    <File path="rtl/speaker_volume.v" type="file.verilog" enable="1"/>
+    <File path="rtl/control_report.v" type="file.verilog" enable="1"/>
+    <File path="rtl/control_top.v" type="file.verilog" enable="1"/>
+    <File path="constraints/tang20k_hdmi.cst" type="file.cst" enable="1"/>
+    <File path="constraints/tang20k_hdmi.sdc" type="file.sdc" enable="1"/>
+    <File path="rtl/video_timing.v" type="file.verilog" enable="1"/>
+    <File path="rtl/video_snapshot.v" type="file.verilog" enable="1"/>
+    <File path="rtl/video_waveform.v" type="file.verilog" enable="1"/>
+    <File path="rtl/tmds_encoder.v" type="file.verilog" enable="1"/>
+    <File path="rtl/video_clocks.v" type="file.verilog" enable="1"/>
+    <File path="rtl/video_hdmi_tx.v" type="file.verilog" enable="1"/>
+    <File path="rtl/studio_scene.v" type="file.verilog" enable="1"/>
+    <File path="rtl/hdmi_instrument_top.v" type="file.verilog" enable="1"/>
+  </FileList>
+</Project>

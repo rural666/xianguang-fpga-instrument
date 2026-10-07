@@ -1,0 +1,61 @@
+{
+  "baseline": "v2.1.2",
+  "validation_date": "2026-10-07",
+  "source_preserved_files": 58,
+  "simulation_tests": [
+    "PASS UART: TX wire decoding, RX bytes, bad stop rejection, false start rejection",
+    "PASS I2S: MSB delay, channel polarity, 16-bit signed words, both channels, 576-clock frame",
+    "PASS IMA: independent CPython audioop vectors, signed limits, predictor and index states",
+    "PASS ADPCM6:       10704 independent level-table vectors, full signed range, predictor saturation and silence",
+    "PASS AUDIO STREAM: UART wire decode, v4 metadata, CRC, 4096 samples and FIFO wrap",
+    "PASS DECIMATE: independent integer FIR, signed boundaries, clipping, exact half-rate cadence",
+    "PASS ROOM: initialized memory, decaying impulse response, bounded tail and signed bypass",
+    "PASS SYNTH: piano decay, sustain, 3/24 voice chords, 8 timbres, release, octave, negative vibrato",
+    "PASS METRONOME: silent off, click and display pulse on, 120 BPM interval",
+    "PASS I2C XFER: 1..16 byte reads, all master ACKs/final NACK, write, all write NACK stages, stretching/timeout/recovery",
+    "PASS ENCODER: both directions, reversal, glitches, illegal transitions, held-button single event",
+    "PASS EXPRESSION LOCK: both tilt axes, symmetry, stable calibration, signed limits, dead zone, PCM gain, recovery",
+    "PASS speaker volume: signed PCM, mute, half/full scale, ramp, gain clamp, numeric limits",
+    "PASS speaker conditioner: initialized look-ahead, headroom, no clipping fallback, sustained gain, zero tail",
+    "PASS speaker path: single piano loudness, three/24 voices, eight timbres, no upstream clipping or output fallback",
+    "PASS MPU: absence/retry, alternate address, identity, config writes/readback, signed 14-byte snapshot, disconnect and bad-config rejection",
+    "PASS MPU: absence/retry, alternate address, identity, config writes/readback, signed 14-byte snapshot, disconnect and bad-config rejection",
+    "PASS CONTROL TOP: all 11 volume steps and display, USB diagnostics, atomic chords, checksum rejection, sustain, lock/reset, 8 timbres, effects, watchdog",
+    "PASS CONTROL REPORT: independent UART decode of every raw sensor/control field"
+  ],
+  "simulation_test_count": 19,
+  "offline_build_complete": true,
+  "setup_hold_violations": [],
+  "clocks": {
+    "sys_clk": {
+      "required_mhz": 27.0,
+      "fmax_mhz": 33.786,
+      "logic_levels": 32
+    },
+    "pixel_clk": {
+      "required_mhz": 25.2,
+      "fmax_mhz": 28.153,
+      "logic_levels": 28
+    }
+  },
+  "setup_hold_summary": [
+    "sys_clk Setup 0.000 0",
+    "sys_clk Hold 0.000 0",
+    "pixel_clk Setup 0.000 0",
+    "pixel_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUT.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUT.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTP.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTP.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTD.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTD.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTD3.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTD3.default_gen_clk Hold 0.000 0"
+  ],
+  "gprj_paths_valid": true,
+  "preview_paths_valid": true,
+  "bundled_firmware_sha256": "D0488B27D0672718240E39A270AA9BB65FBB4C60A3405E16BD842CC09D393E91",
+  "rebuild_firmware_sha256": "EA1A3E3D7AF035E56C981F66E6EC65517288698A4F20EC840D60B7C25D43B048",
+  "hardware_programmed": false,
+  "new_board_test_performed": false
+}

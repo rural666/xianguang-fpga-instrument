@@ -1,0 +1,13 @@
+# Preserve provided hardware/source/ROM bytes exactly.
+* text=auto
+fpga_source/rtl/** -text
+fpga_source/assets/** -text
+fpga_source/constraints/** -text
+fpga_source/control.gprj -text
+fpga_source/firmware/** -text -diff
+触摸界面交互源码/** -text
+*.png binary
+*.pdf binary
+*.fs linguist-generated=true
+*.hex linguist-generated=true
+fpga_source/sim/fixtures/** linguist-generated=true

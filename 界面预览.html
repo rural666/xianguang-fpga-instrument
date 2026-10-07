@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>弦光界面预览</title>
+<style>
+  body { margin:0; min-height:100vh; display:grid; place-items:center; background:#171613; color:#eee7d8; font:15px system-ui,"Microsoft YaHei",sans-serif; }
+  main { width:min(940px,96vw); text-align:center; }
+  h1 { font-size:22px; font-weight:500; letter-spacing:.16em; margin:24px 0 16px; }
+  .toolbar { margin:14px 0 18px; display:flex; justify-content:center; gap:12px; }
+  button { background:#292620; border:1px solid #6f6248; color:#e9d7af; border-radius:5px; padding:9px 18px; font:inherit; cursor:pointer; }
+  button[aria-pressed="true"] { background:#8b7245; color:#120f09; }
+  img { display:block; width:min(800px,94vw); height:auto; margin:auto; border:1px solid #39342a; box-shadow:0 18px 55px #0009; }
+  p { color:#aaa397; margin:17px 0 30px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>弦光 · 当前 HDMI 画面</h1>
+  <div class="toolbar">
+    <button id="idle" aria-pressed="true">待机</button>
+    <button id="play" aria-pressed="false">演奏</button>
+  </div>
+  <img id="scene" src="fpga_source/assets/single_row_idle.png" alt="弦光待机界面">
+  <p>由 FPGA 画面仿真输出；实际屏幕会把 640×480 信号显示为 800×480。</p>
+</main>
+<script>
+const scene=document.getElementById('scene');
+for(const state of ['idle','play']) {
+  document.getElementById(state).onclick=()=>{
+    scene.src=`fpga_source/assets/single_row_${state}.png`;
+    scene.alt=`弦光${state==='idle'?'待机':'演奏'}界面`;
+    for(const name of ['idle','play'])
+      document.getElementById(name).setAttribute('aria-pressed',String(name===state));
+  };
+}
+</script>
+</body>
+</html>

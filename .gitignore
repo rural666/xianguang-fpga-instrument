@@ -1,0 +1,15 @@
+# Local build products and tools
+fpga_source/build/
+fpga_source/logs/
+fpga_source/impl/
+__pycache__/
+*.py[cod]
+*.vvp
+*.vcd
+*.fst
+.venv/
+.env
+.env.*
+*.user
+*.bak
+*.tmp

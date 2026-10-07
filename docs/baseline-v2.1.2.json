@@ -1,0 +1,330 @@
+{
+  "baseline": "user-supplied v2.1.2",
+  "archive_sha256": "A883F7F7FC4D790184E63CF920F7F7D2570B15CBAF09C5BE6B62BE71A353C41E",
+  "protected_files": [
+    {
+      "path": "fpga_source/assets/brand64x32.hex",
+      "sha256": "EFAEB200B0193AE88F7B90632BCD8948FCB70FEE62E73454971CE0ED68783426",
+      "bytes": 1024
+    },
+    {
+      "path": "fpga_source/assets/brand_reference.png",
+      "sha256": "605402FDC0C77C61929870D2B2BCFC5C5A60012CA288F41032C97190E308ED07",
+      "bytes": 811
+    },
+    {
+      "path": "fpga_source/assets/font8x16.hex",
+      "sha256": "2A23BCA8A913B33E5A09380D4C27F83346A2B3D1EC84425F8C74A8F24A241250",
+      "bytes": 8192
+    },
+    {
+      "path": "fpga_source/assets/scene_text.hex",
+      "sha256": "B92A16B1A457FAC42C8D3801E3F3E0F2D1F8DD1079053232BE7D9DEE3DB81C5B",
+      "bytes": 9600
+    },
+    {
+      "path": "fpga_source/assets/single_row_idle.png",
+      "sha256": "F1E9F6C35E9FB32004D07C8EFFCFA9105BAFD3231B97D41C0EFA5EEBE3F3D60B",
+      "bytes": 19553
+    },
+    {
+      "path": "fpga_source/assets/single_row_play.png",
+      "sha256": "3F26983F2DD45B0764979362AEED7E0066C5D5B9429DC6A9AEC68CAD9D38438A",
+      "bytes": 23087
+    },
+    {
+      "path": "fpga_source/assets/Studio.xaml",
+      "sha256": "1A3D714ECAF731C948B2C4811D2A67B8AE55A8580C5E157FF0FDC83D9FFE6DCF",
+      "bytes": 13826
+    },
+    {
+      "path": "fpga_source/assets/timbre_text.hex",
+      "sha256": "D767EC9489CFAE41D9865FC2BA43975A91110FF6062A2E13A47BA47DDE3AFE6C",
+      "bytes": 512
+    },
+    {
+      "path": "fpga_source/assets/two_rows_idle.png",
+      "sha256": "AD49882F7DCD0307DCB17614E99C0A5F8CACFE31BCA0174F35BAC24E11CE1DB1",
+      "bytes": 21665
+    },
+    {
+      "path": "fpga_source/assets/two_rows_play.png",
+      "sha256": "4FA1BD20DD15387B948F425BEB93717B66819E07C74EB7AC81058CA8A4C8DA7B",
+      "bytes": 24794
+    },
+    {
+      "path": "fpga_source/assets/ui_digits_24x48.hex",
+      "sha256": "8C3DA9352FD1964551A8E89A0E271823ADF48F491A0B08BEE88FE30FA595AB8F",
+      "bytes": 5760
+    },
+    {
+      "path": "fpga_source/assets/ui_prompt_304x24.hex",
+      "sha256": "C6E4AB4489B266ABAA84B5568D066A4567632B576CB43481C5285BD49B3C1FFE",
+      "bytes": 3648
+    },
+    {
+      "path": "fpga_source/assets/ui_prompt_preview.png",
+      "sha256": "CA0FD0F020C26DFE12507713321679BE4F82243EB70C8B719415452E401FB2E0",
+      "bytes": 465
+    },
+    {
+      "path": "fpga_source/assets/ui_timbres_224x320.hex",
+      "sha256": "63DD43927018D18A74ECBA93396DFFDEF96B28A35740AB6ACC69142FE2013B47",
+      "bytes": 35840
+    },
+    {
+      "path": "fpga_source/assets/ui_top_640x128.hex",
+      "sha256": "6DAABF5B57A283D3FFF773641B8ABD9497A08C2FDF97782071430AAB0FC1100C",
+      "bytes": 40960
+    },
+    {
+      "path": "fpga_source/assets/ui_top_640x210.hex",
+      "sha256": "BA3B68425E985962D58D601DD4A9B9E5036D9F8727E32DCCACB37BD9D226D250",
+      "bytes": 67200
+    },
+    {
+      "path": "fpga_source/assets/ui_top_preview.png",
+      "sha256": "B06F7B95CE138090FF0E4B290D45746DD9480FF6ACDEEE81DE43FE1DD1249D93",
+      "bytes": 2647
+    },
+    {
+      "path": "fpga_source/constraints/tang20k.sdc",
+      "sha256": "E6B0DE1B652A670239FDAE0E4E69AE4E4E73E18D42AE1CFA7BDB217D7B926481",
+      "bytes": 60
+    },
+    {
+      "path": "fpga_source/constraints/tang20k_control.cst",
+      "sha256": "DBEF7EA45D520216E0165BD16161F00335C46124FDD286C3C260934C9B095287",
+      "bytes": 1520
+    },
+    {
+      "path": "fpga_source/constraints/tang20k_hdmi.cst",
+      "sha256": "D1D4356565C936FFFA2BFC719F6B89C8681D306DD8EA26386BB2A5C365022F32",
+      "bytes": 1944
+    },
+    {
+      "path": "fpga_source/constraints/tang20k_hdmi.sdc",
+      "sha256": "63684596A42B5D70CEC3E46EE694C12DDA1BF77CE0F4E2F1B79732ADD2FED1B0",
+      "bytes": 235
+    },
+    {
+      "path": "fpga_source/control.gprj",
+      "sha256": "664099FD637EF09AFF13A39EAA10F59D078B2CF04F4885D5920021ECE351F48A",
+      "bytes": 2239
+    },
+    {
+      "path": "fpga_source/firmware/control.fs",
+      "sha256": "D0488B27D0672718240E39A270AA9BB65FBB4C60A3405E16BD842CC09D393E91",
+      "bytes": 7264154
+    },
+    {
+      "path": "fpga_source/firmware/manifest.json",
+      "sha256": "0A29E20A4BEA53C9D03B9906529EB2B0B8E267184DC3B75B32A9B9EC63A6C792",
+      "bytes": 2304
+    },
+    {
+      "path": "fpga_source/rtl/adpcm6_encoder.v",
+      "sha256": "676ECB47DB82BD780C36E452DF3692879198DAFEB3F2B240D286FD57C5688780",
+      "bytes": 2275
+    },
+    {
+      "path": "fpga_source/rtl/audio_decimate.v",
+      "sha256": "EC428C7FC57C3BD4452FFC3773D7D6EA5AFC727FC1E3816E89FA00274A5A68A6",
+      "bytes": 1110
+    },
+    {
+      "path": "fpga_source/rtl/audio_uart_stream.v",
+      "sha256": "AA845ADA73BC0F885C2C702308A67166A50DD5C7D08F6E0E9E8CDF02CB71365D",
+      "bytes": 5053
+    },
+    {
+      "path": "fpga_source/rtl/control_report.v",
+      "sha256": "AC1E49DEE9EEA78032B9BBA18E781D1460D0F44FD04CF17F5D9226B7AF7A5F2C",
+      "bytes": 2964
+    },
+    {
+      "path": "fpga_source/rtl/control_top.v",
+      "sha256": "714ABB2C2655918A76A0FF99203F923EB96F758EBA0AD37236DB0D0F9D8BE5F1",
+      "bytes": 13276
+    },
+    {
+      "path": "fpga_source/rtl/encoder_control.v",
+      "sha256": "6E047AF49694AEAB81D8CCF81A0AD187F21C2DC9FD2146DB44B519EEBF860F71",
+      "bytes": 2154
+    },
+    {
+      "path": "fpga_source/rtl/hdmi_instrument_top.v",
+      "sha256": "DD37A1AA510EDCA694053527863B8F3231008889A4D44EC7C8379AA31159B9F0",
+      "bytes": 3487
+    },
+    {
+      "path": "fpga_source/rtl/i2c_reg_xfer.v",
+      "sha256": "4C14DC2786827C5EA98B3D491D98C03F38159A526A350A6C666D059DA6268E36",
+      "bytes": 9466
+    },
+    {
+      "path": "fpga_source/rtl/i2s_tx.v",
+      "sha256": "B7EB4F83D6CCD3D46DE1D02F6B32131B610E58E344D841D9271DE4BBF91CEC03",
+      "bytes": 1272
+    },
+    {
+      "path": "fpga_source/rtl/ima_encoder.v",
+      "sha256": "0F3F25FAB49F979D77669DCA3FB6B64CC1E0CB686DA5340E2300B3140F8CC327",
+      "bytes": 1990
+    },
+    {
+      "path": "fpga_source/rtl/ima_steps.hex",
+      "sha256": "50F3D4EE0D9CBA27CDE200B10CA7D85D05AA9E3D0A1888660496047066E0463D",
+      "bytes": 534
+    },
+    {
+      "path": "fpga_source/rtl/metronome.v",
+      "sha256": "6CD4C29A2000090F5CC385ABC757C79A1358FBFD00E412AB91590DE90E34FA32",
+      "bytes": 2007
+    },
+    {
+      "path": "fpga_source/rtl/mpu6050_reader.v",
+      "sha256": "57350080B1F0DD02C91E173B825AB6945870C3477428492E475795403378B4A3",
+      "bytes": 5670
+    },
+    {
+      "path": "fpga_source/rtl/room_reverb.v",
+      "sha256": "8CD096DBF08EA9D981E461882626D4D6527694C1DAFB785BC0D8FC95A40F0A44",
+      "bytes": 2425
+    },
+    {
+      "path": "fpga_source/rtl/sine2048.hex",
+      "sha256": "391186737F61BAEE61BE6D6084999D5A43005D47ED173B51F95416D6B0C38C14",
+      "bytes": 12288
+    },
+    {
+      "path": "fpga_source/rtl/speaker_conditioner.v",
+      "sha256": "AB1CF6C5BA5A845EA5F0998A618FB7C183C2F8C1CCABD43F3D1BFF20DFDA3BC3",
+      "bytes": 3958
+    },
+    {
+      "path": "fpga_source/rtl/speaker_volume.v",
+      "sha256": "1918B1BFFA3AF42F2EC1AF20EF23DE84A7C4E8F304EBC285C317D0D5F778645B",
+      "bytes": 783
+    },
+    {
+      "path": "fpga_source/rtl/studio_scene.v",
+      "sha256": "C9AE0942BDC8CC85C922307F2489D68F6251CB024ABB296084EF9B240E15E1D6",
+      "bytes": 17272
+    },
+    {
+      "path": "fpga_source/rtl/synth_core.v",
+      "sha256": "CE5ABB68AF8FF3ACDF10644326784921331292BAA3A49ECFB714E52C84FB3619",
+      "bytes": 10963
+    },
+    {
+      "path": "fpga_source/rtl/tilt_expression.v",
+      "sha256": "80F7155DD0D5FF3B272E99C55442B19BD97C4B932DE24EEDAF6701E65361F61E",
+      "bytes": 3995
+    },
+    {
+      "path": "fpga_source/rtl/tmds_encoder.v",
+      "sha256": "D7BA36C7CC4B7DC6A517A78617C9A7B595E0ED29C882FB6A9ED5AE36C1BC1E30",
+      "bytes": 1831
+    },
+    {
+      "path": "fpga_source/rtl/uart_rx.v",
+      "sha256": "9DC9ECF10F62BE3E9DFE3680C147CC2156DF6CC1A0236C4DC7F71C6D1613683D",
+      "bytes": 1725
+    },
+    {
+      "path": "fpga_source/rtl/uart_tx.v",
+      "sha256": "A845E66673875CA1AB65872485F7AC2B624DC77D78183602AF349E635A7F0D68",
+      "bytes": 1109
+    },
+    {
+      "path": "fpga_source/rtl/video_clocks.v",
+      "sha256": "3CD421DF48FB3C6EDB7B304E3551A9C8E17DA41A4A962F878C3356D6F22D00C3",
+      "bytes": 647
+    },
+    {
+      "path": "fpga_source/rtl/video_hdmi_tx.v",
+      "sha256": "3B4F53697E2DEE85788CEC55872C6138A173351A263058647E055C30C4CB7085",
+      "bytes": 1588
+    },
+    {
+      "path": "fpga_source/rtl/video_snapshot.v",
+      "sha256": "2AC4F25E5B04F88B979A750A600173587A4FD9D5AE22A7C90E56C32614EA3920",
+      "bytes": 2206
+    },
+    {
+      "path": "fpga_source/rtl/video_timing.v",
+      "sha256": "866A33AFE7DA5550E13BC3F269425F02F0D01119B7C309028D5FA915D7E71527",
+      "bytes": 758
+    },
+    {
+      "path": "fpga_source/rtl/video_waveform.v",
+      "sha256": "5038FF1EA77A9093E0C113D95C7B9437A1EACD2D22954120681F448C6CDF3A53",
+      "bytes": 2247
+    },
+    {
+      "path": "触摸界面交互源码/instrument_keys.c",
+      "sha256": "97795B01003E2AB5BB129568674DDC380601C8F6A0BDEE6F775C6FF63820D93A",
+      "bytes": 15145
+    },
+    {
+      "path": "触摸界面交互源码/instrument_keys.h",
+      "sha256": "3BA44519AFEB5A4B6655CE072E518B5240A396D5FA2D966EE03590EE7A0259A0",
+      "bytes": 2072
+    },
+    {
+      "path": "触摸界面交互源码/touch_input.c",
+      "sha256": "B80B56B2CF8F6272A7489B6FF56A7AC70E30454DCE8E8D9268A11D69383279C3",
+      "bytes": 3471
+    },
+    {
+      "path": "触摸界面交互源码/touch_input.h",
+      "sha256": "EA6388BCE75B8CA9A54E880D7E6A30F7E3F27712F3B73B66CE527DB14D42CAC7",
+      "bytes": 1052
+    },
+    {
+      "path": "触摸界面交互源码/touch_usb.c",
+      "sha256": "61F49877EBD6297E9AB2D9407FA5C0F752E81AF14A4769574063A34155820C1D",
+      "bytes": 4547
+    },
+    {
+      "path": "触摸界面交互源码/touch_usb.h",
+      "sha256": "AE6B719D2289B2887D00C66CAFC1AB06635261FA1534EED598FCEF0517C60691",
+      "bytes": 169
+    }
+  ],
+  "omitted_generated_or_local_files": [
+    "fpga_source/build/single_row_idle.ppm",
+    "fpga_source/build/single_row_play.ppm",
+    "fpga_source/build/tb_control_top.vvp",
+    "fpga_source/build/tb_studio_single_row.vvp",
+    "fpga_source/build/tb_studio_two_rows.vvp",
+    "fpga_source/build/tb_uart.vvp",
+    "fpga_source/build/two_rows_idle.ppm",
+    "fpga_source/build/two_rows_play.ppm",
+    "fpga_source/logs/build_fpga.log",
+    "fpga_source/logs/build_fpga_v2_1.log",
+    "fpga_source/logs/program_fpga.log",
+    "fpga_source/logs/program_fpga_v2_1.log",
+    "fpga_source/logs/program_fpga_v2_1_1.log",
+    "fpga_source/logs/program_fpga_v2_1_2.log",
+    "fpga_source/logs/studio_scene_before_two_rows.v",
+    "fpga_source/logs/studio_scene_v2_1_two_rows.v",
+    "文件清单.csv",
+    "验证报告/control.rpt.txt",
+    "验证报告/control_tr_content.html"
+  ],
+  "archived_legacy_scripts": [
+    "fpga_source/scripts/build_studio.ps1",
+    "fpga_source/scripts/capture_audio.ps1",
+    "fpga_source/scripts/compare_quality.py",
+    "fpga_source/scripts/listen_board.ps1",
+    "fpga_source/scripts/package_share.py",
+    "fpga_source/scripts/start_studio.ps1",
+    "fpga_source/scripts/test_live.ps1",
+    "fpga_source/scripts/test_studio.ps1",
+    "fpga_source/scripts/verify_release.ps1"
+  ],
+  "later_visual_revisions_included": false,
+  "new_hardware_programming_performed": false
+}

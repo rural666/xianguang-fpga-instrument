@@ -1,0 +1,29 @@
+{
+  "source": "v2.1.2 supplied timing report, not a new board test",
+  "clocks": {
+    "sys_clk": {
+      "required_mhz": 27.0,
+      "fmax_mhz": 33.786,
+      "logic_levels": 32
+    },
+    "pixel_clk": {
+      "required_mhz": 25.2,
+      "fmax_mhz": 28.153,
+      "logic_levels": 28
+    }
+  },
+  "summary_rows": [
+    "sys_clk Setup 0.000 0",
+    "sys_clk Hold 0.000 0",
+    "pixel_clk Setup 0.000 0",
+    "pixel_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUT.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUT.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTP.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTP.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTD.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTD.default_gen_clk Hold 0.000 0",
+    "u_clocks/u_pll/CLKOUTD3.default_gen_clk Setup 0.000 0",
+    "u_clocks/u_pll/CLKOUTD3.default_gen_clk Hold 0.000 0"
+  ]
+}
